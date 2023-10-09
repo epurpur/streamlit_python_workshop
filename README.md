@@ -51,8 +51,27 @@ Streamlit has a ["Get Started"](https://docs.streamlit.io/library/get-started) p
 
 #### Steps to get started
 
-![](images/img1.png)
+First, find the "environments" tab in Anaconda Navigator and create a new environment. Look at the bottom left of the Anaconda Navigator and find the "Create" button ![](images/Create.png)
 
-![](images/img2.png)
+![](images/Step1.png)
+
+It probably doesn't matter which version of python, but just for the sake of simplicity, choose python 3.9
+
+![](images/Environment.png)
+
+Then enter the following commands in the terminal window. 
+
+![](images/Step2.png)
+
+A "Hello" browser window should pop up. If so, Streamlit is running!
+
+### Conda Environments 
+You might be wondering, what is this environment we just created? Basicaly, a conda environment is like a bubble which contains a certain set of softwares and packages for a specific purpose. Environments are really useful to use because it is common to have errors and conflicts when installing packages, such as streamlit. You can read more about conda environments [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment).
+
+### Web Server
+As you can see, the "hello" window opened in a tab in your web browser. That means a web server is in use. A web server is a combination of hardware (a computer) and software (a program/code) that stores and displays all the content in a web application or web site. Streamlit does a lot of this without you seeing it. But it is also reading your python code, which we will see later.
+
+### Localhost
+Our Streamlit app will run on "localhost". Localhost is like your own computer talking to itself on the internet. It is a way to refer to your own computer when it is running a web server. This is commonly the way to develop and prototype a web application before hosting it somewhere for the public to see. 
 
 
