@@ -94,7 +94,6 @@ ChatGPT
 * [How to Effectively Learn to Program w/ ChatGPT](https://towardsdatascience.com/how-to-effectively-start-coding-in-the-era-of-chatgpt-cfc5151e1c42)
 * [Corey Schafer's "How to use ChatGPT"](https://www.youtube.com/watch?v=jRAAaDll34Q)
 
-[Matplotlib Documentation](https://matplotlib.org/3.1.1/index.html)
 
 [Stack Overflow](https://stackoverflow.com/) is a huge user community Q&A type site. Odds are very high that someone has 
 asked your question before, just google something like "how to make scatter plot matlplotlib python". I'm pretty certain a 
