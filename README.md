@@ -50,3 +50,9 @@ In this workshop we will build some simple web apps and/or data dashboards with 
 Streamlit has a ["Get Started"](https://docs.streamlit.io/library/get-started) page in their documentation that we will be following today for this workshop. 
 
 #### Steps to get started
+
+![](images/img1.png)
+
+![](images/img2.png)
+
+
