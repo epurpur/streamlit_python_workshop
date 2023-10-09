@@ -65,6 +65,14 @@ Then enter the following commands in the terminal window.
 
 A "Hello" browser window should pop up. If so, Streamlit is running!
 
+### Streamlit Demo
+Run the following commands to see a demo streamlit application.
+```
+pip install --upgrade streamlit
+
+streamlit run https://raw.githubusercontent.com/streamlit/demo-uber-nyc-pickups/main/streamlit_app.py
+```
+
 ### Conda Environments 
 You might be wondering, what is this environment we just created? Basicaly, a conda environment is like a bubble which contains a certain set of softwares and packages for a specific purpose. Environments are really useful to use because it is common to have errors and conflicts when installing packages, such as streamlit. You can read more about conda environments [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment).
 
@@ -75,3 +83,28 @@ As you can see, the "hello" window opened in a tab in your web browser. That mea
 Our Streamlit app will run on "localhost". Localhost is like your own computer talking to itself on the internet. It is a way to refer to your own computer when it is running a web server. This is commonly the way to develop and prototype a web application before hosting it somewhere for the public to see. 
 
 
+
+
+## **Self Help - You don't need to remember all of this!**
+
+Honestly, you don't need to remember most of it. Here are the resources I use when looking for answers:
+
+ChatGPT
+* ChatGPT has quickly made huge changes to the programming landscape. It is a hugely powerful tool **If you use it the right way!**. I think it is a somewhat slippery slope of how to advise new programmers to use ChatGPT (or other AI tools) so I will refer to some best practices. My personal opinion is that you should use AI minimally when you are starting. When you have a better grasp of basic fundamentals, then you can include AI and greatly increase your speed. **Never accept ChatGPT code verbatim!** Always double check it before including it in your workflows.
+* [How to Effectively Learn to Program w/ ChatGPT](https://towardsdatascience.com/how-to-effectively-start-coding-in-the-era-of-chatgpt-cfc5151e1c42)
+* [Corey Schafer's "How to use ChatGPT"](https://www.youtube.com/watch?v=jRAAaDll34Q)
+
+[Matplotlib Documentation](https://matplotlib.org/3.1.1/index.html)
+
+[Stack Overflow](https://stackoverflow.com/) is a huge user community Q&A type site. Odds are very high that someone has 
+asked your question before, just google something like "how to make scatter plot matlplotlib python". I'm pretty certain a 
+StackOverflow thread will be one of the first few search results
+
+*Stack Overflow Etiquette*
+Don't just ask questions right away. Odds are high that for widely used packages, like matplotlib, a question and answer 
+already exists. It is good practice to use that (and upvote it) if you like the answer. 
+
+If you do ask a question, make sure it is specific and reproducible. People will downvote you and moderators will close the 
+question if it is vague, incoherent, not-reproducible, or not clear in some other way. StackOverflow's purpose is to act as 
+a reference guide, not as a forum to debate open ended questions such as "what is better, matplotlib or ggplot?". Go on 
+Reddit if you want to do that. 
